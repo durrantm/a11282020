@@ -135,7 +135,7 @@ function App() {
     if (zip.length !== 5 || isNaN(zip)) {
       invalidZip();
     }
-  }, [ zip, ...forecast5DayHighs, forecast ]);
+  }, [ /*zip, ...forecast5DayHighs, forecast*/ ]);
 
   const updateZip = (event) => {
     setZip(event.target.value);
