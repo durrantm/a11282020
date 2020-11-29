@@ -1,0 +1,59 @@
+env:
+  commonjs: true
+  es6: true
+  node: true
+extends:
+  - eslint:recommended
+  - plugin:react/recommended
+globals:
+  Atomics: readonly
+  SharedArrayBuffer: readonly
+parserOptions:
+  ecmaVersion: 2018
+  sourceType: module
+plugins:
+  - react
+rules:
+  indent:
+  - error
+  - 2
+  max-len:
+  - error
+  - code: 120
+  jsx-quotes:
+  - error
+  - prefer-double
+  no-dupe-else-if: error
+  no-dupe-keys: error
+  no-duplicate-case: error
+  no-unreachable: error
+  no-dupe-args: error
+  prefer-const: error
+  eqeqeq: error
+  semi: error
+  no-var: error
+  no-fallthrough: error
+  no-new: error
+  no-redeclare: error
+  vars-on-top: error
+  default-param-last: error
+  no-mixed-spaces-and-tabs: error
+  no-tabs: error
+  no-trailing-spaces: error
+  no-irregular-whitespace: error
+  no-unused-vars: error
+  no-nested-ternary: error
+  no-multiple-empty-lines: error
+  no-use-before-define: error
+  no-extra-boolean-cast: error
+  no-extra-parens: error
+  default-case: error
+  no-else-return: error
+  no-eq-null: error
+  no-eval: error
+  no-loop-func: error
+  no-native-reassign: error
+  no-param-reassign: error
+  no-self-compare: error
+  prefer-template: error
+  comma-spacing: error
